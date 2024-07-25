@@ -28,49 +28,49 @@ Ini adalah proyek berbasis Laravel yang menggunakan Laravel Filament untuk memba
 ## Instalasi
 
 - Clone Repository
-  Clone repository ini ke direktori lokal Anda:
+  Clone repository ini ke direktori lokal Anda:<br><br>
   
-  git clone https://github.com/username/nama-repo.git
+  git clone https://github.com/username/nama-repo.git<br>
   cd nama-repo
 
 - Instal Dependensi
-  Jalankan perintah berikut untuk menginstal semua dependensi PHP dan JavaScript:
+  Jalankan perintah berikut untuk menginstal semua dependensi PHP dan JavaScript:<br><br>
 
-  composer install
-  npm install
+  composer install<br>
+  npm install<br>
   npm run dev
 
 - Salin File Konfigurasi .env
-  Salin file .env.example ke .env dan sesuaikan pengaturan lingkungan Anda:
+  Salin file .env.example ke .env dan sesuaikan pengaturan lingkungan Anda:<br><br>
 
   cp .env.example .env
 
 - Buat Kunci Aplikasi
-  Jalankan perintah berikut untuk membuat kunci aplikasi:
+  Jalankan perintah berikut untuk membuat kunci aplikasi:<br><br>
 
   php artisan key:generate
 
 - Konfigurasi Database
-  Buka file .env dan sesuaikan konfigurasi database Anda:
+  Buka file .env dan sesuaikan konfigurasi database Anda:<br><br>
 
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=nama_database
-  DB_USERNAME=username
+  DB_CONNECTION=mysql<br>
+  DB_HOST=127.0.0.1<br>
+  DB_PORT=3306<br>
+  DB_DATABASE=nama_database<br>
+  DB_USERNAME=username<br>
   DB_PASSWORD=password
 
 - Migrasi dan Seed Database
-  Jalankan migrasi dan seeding untuk menyiapkan database:
+  Jalankan migrasi dan seeding untuk menyiapkan database:<br><br>
 
   php artisan migrate --seed
 
 - Menjalankan Server
-  Jalankan server pengembangan Laravel:
+  Jalankan server pengembangan Laravel:<br><br>
 
   php artisan serve
 
-- Akses Filament Admin Panel
+- Akses Filament Admin Panel<br>
   http://127.0.0.1:8000/admin
 
 Ikuti dokumentasi resmi Filament untuk informasi lebih lanjut tentang cara mengkonfigurasi dan menggunakan komponen yang tersedia.
